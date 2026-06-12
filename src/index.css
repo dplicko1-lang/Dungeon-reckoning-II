@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Unbounded:wght@300;400;700;950&display=swap');
+
+@theme {
+  --font-sans: 'Unbounded', sans-serif;
+  --font-mono: 'Space Mono', monospace;
+  
+  --color-brand-accent: #FF3B3F;
+  --color-brand-bg: #0F0E11;
+  --color-brand-panel: #1F1E24;
+  --color-brand-text: #E0E0E0;
+}
+
+body {
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-text);
+  font-family: var(--font-sans);
+}
+
+.mono-font {
+  font-family: var(--font-mono);
+}
+
+.game-font {
+  font-family: var(--font-sans);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "2D Location Action Game",
+  "description": "An action-filled 2D HTML5 canvas game featuring 5 locations, scaling enemy difficulty, weapon upgrades (knife, sword, katana), and character stats customization (HP, Damage, Armor) leading up to a major boss fight.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
